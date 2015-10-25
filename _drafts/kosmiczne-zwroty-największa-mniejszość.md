@@ -1,1 +1,0 @@
-W sensie najbardziejsza mniejszość.
