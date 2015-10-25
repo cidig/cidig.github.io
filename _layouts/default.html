@@ -9,9 +9,10 @@
 <body>
     <main>
         <header class="site-header">
-            <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+            <img src="/images/logo.jpg" alt="Blog Logo">
+            <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }} <font size=4>Glossy do rzeczywistości</font></a></h1>
             <nav class="site-nav">
-                <a href="{{ site.baseurl }}/" class="{% if page.url == site.baseurl %}active{% endif %}">Posty</a> 
+                <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">Posty</a> 
                 <a href="{{ site.baseurl }}/about/" class="{% if page.url == '/about/' %}active{% endif %}">O Blogu</a>
             </nav>
         </header>
