@@ -1,10 +1,10 @@
 ---
 layout:    page
-title:     About
+title:     O blogu
 permalink: /about/
 ---
 
 Zapiski i przemyślenia.
 
-- Author: cidig
+- Autor: cidig
 - Email:  cidig (at) posteo.eu
